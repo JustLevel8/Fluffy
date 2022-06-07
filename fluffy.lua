@@ -107,7 +107,7 @@ function HideGui()
         repeat
             task.wait()
         until l.Size.Y.Offset > 1
-        k.Enabled = false
+        k.Enabled = true
     end
 end
 spawn(
