@@ -103,11 +103,11 @@ function HideGui()
         until l.Size.Y.Offset < 1
         k.Enabled = false
     else
-        l:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
+        l:TweenSize(UDim2.new(0, 614, 0, 344), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
         repeat
             task.wait()
         until l.Size.Y.Offset > 1
-        k.Enabled = true
+        k.Enabled = false
     end
 end
 spawn(
